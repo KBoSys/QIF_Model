@@ -26,6 +26,6 @@ QIF_Model_Use is a console application that receives a qif file as an input para
 3. Exports the QIF Document to new file - Serialization
 4. Validates the output file agains the XSD
 
-## MS ubit test - test harness application
+## MS unit test - test harness application
 The test application reads files from the test dataset, exports the document to new file and compares the input and output files.
 The test set contains 48 qif files for now.
