@@ -21,10 +21,10 @@ qifImport.Write(document, filename);
 # Test Application
 ## QIF_Model_Use
 QIF_Model_Use is a console application that receives a qif file as an input parameter.
-1. Validates the input file agains the XSD 
+1. Validates the input file against the XSD 
 2. Creates QIF document from the input file - Deserialization
 3. Exports the QIF Document to new file - Serialization
-4. Validates the output file agains the XSD
+4. Validates the output file against the XSD
 
 ## MS unit test - test harness application
 The test application reads files from the test dataset, exports the document to new file and compares the input and output files.
