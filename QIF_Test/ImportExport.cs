@@ -22,7 +22,7 @@ namespace QIF_Test
                 result = line.Trim();
                 if (!String.IsNullOrEmpty(result))
                     break;
-                
+
                 line = reader.ReadLine();
                 result = null;
             }
@@ -111,7 +111,7 @@ namespace QIF_Test
         {
             QIFSerializer qifImport = new QIFSerializer();
 
-            string sourceDirectory = @"..\..\..\..\..\TestFiles";
+            string sourceDirectory = @"..\..\..\..\TestFiles";
             string outputFile = $"{sourceDirectory}\\Test\\Test.qif";
             try
             {
@@ -124,20 +124,15 @@ namespace QIF_Test
                     string fileName = currentFile.Substring(sourceDirectory.Length + 1);
 
                     QIFDocumentType document = qifImport.CreateQIFDocument(currentFile);
-
-                    if (document != null)
-                    {
-                        Console.WriteLine(document.QPId);
-                    }
+                    Assert.IsNotNull(document, "Could not create QIFDocument");
 
                     qifImport.Write(document, outputFile);
-
                     Assert.IsTrue(FileCompare(currentFile, outputFile), $"Problem with {currentFile}.");
                 }
             }
             catch (Exception e)
             {
-                TestContext.WriteLine(e.Message);
+                Assert.Fail(e.Message);
             }
         }
     }

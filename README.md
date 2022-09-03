@@ -4,6 +4,18 @@
 Full implementation of QIF 3.0 Standard with test application.
 Precise reading and writing of QIF files without loss of information.
 
+## Copyright
+
+**Existing XSD and XSLT checks in QIF 3.0 are:**
+Copyright © 2018 by Digital Metrology Standards Consortium, Inc. (DMSC)
+
+**The source code of QIF_Model is:**
+Copyright © 2022 by KBO Systems Inc.
+
+## License
+
+See [License](LICENSE.md)
+
 ## Overview
 
 Using QIF_Model library is extremely easy:

@@ -17,43 +17,64 @@ using QIF_Model.QIFApplications;
 
 namespace QIF_Import_Console
 {
-	public class Program
-	{
-		static void Main(string[] args)
-		{
-			if (args.Length < 1)
-			{
-				Console.WriteLine("No arguments!");
-				return;
-			}
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            if (args.Length < 2)
+            {
+                Console.WriteLine("No arguments. Expected: input_dir output_dir");
+                return;
+            }
 
-			string input_file = args[0];
+            string sourceDirectory = args[0];
+            string destDirectory = args[1];
 
-			// Validate the input against the XSD
-			//if (!Validate(input_file))
-			//	return;
+            try
+            {
+                var files = Directory.EnumerateFiles(sourceDirectory, "*.qif", SearchOption.TopDirectoryOnly);
 
-			// Create QIF document from the input file
-			QIFSerializer qifImport = new QIFSerializer();
-            QIFDocumentType document = qifImport.CreateQIFDocument(input_file);
+                foreach (string currentFile in files)
+                {
+                    // Validate the input against the XSD
+                    //if (!Validate(input_file))
+                    //	return;
 
-            if (document != null)
-			{
-				Console.WriteLine(document.QPId);
-			}
+                    Console.WriteLine($"Reading {currentFile}...");
 
-			// Export the document into test folder 
-			string filename = Path.GetFileNameWithoutExtension(input_file);
-			string output_file = @"..\..\..\TestFiles\Test\" + filename + ".conv.qif";
-            qifImport.Write(document, output_file);
+                    // Create QIF document from the input file
+                    QIFSerializer qifImport = new QIFSerializer();
+                    QIFDocumentType document = qifImport.CreateQIFDocument(currentFile);
+                    if (document == null)
+                    {
+                        Console.WriteLine("Could not create QIF Document.");
+                        break;
+                    }
 
-			// Validate the output file agains the XSD
-			Validate(output_file);
-		}
+                    // Export the document into test folder 
+                    string filename = Path.GetFileNameWithoutExtension(currentFile);
+                    //string output_file = @"..\..\..\TestFiles\Test\" + filename + ".conv.qif";
+                    string output_file = Path.Combine(destDirectory, $"{filename}.conv.qif");
 
-		static bool Validate(string filename)
-		{
-			return QIFSerializer.Validate(filename, "http://qifstandards.org/xsd/qif3", @"..\..\..\xsd\QIFApplications\QIFDocument.xsd");
-		}
-	}
+                    Console.WriteLine($"Exporting {output_file}...");
+                    qifImport.Write(document, output_file);
+
+                    // Validate the output file agains the XSD
+                    if (!Validate(output_file))
+                    {
+                        //break;
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        static bool Validate(string filename)
+        {
+            return QIFSerializer.Validate(filename, "http://qifstandards.org/xsd/qif3", @"..\..\..\xsd\QIFApplications\QIFDocument.xsd");
+        }
+    }
 }
