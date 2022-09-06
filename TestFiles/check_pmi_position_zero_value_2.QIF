@@ -11244,7 +11244,7 @@
             <Origin>41748.7206583061 -1200.15002441406 7477.18692840082</Origin>
             <Direction>0 1 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="6.2132759" n="6">
+          <Texts n="6" fontIndex="1" lineHeight="6.2132759">
             <Text>
               <Data>2X</Data>
               <XY>0 1</XY>
@@ -11316,7 +11316,7 @@
             <Origin>41754.74609375 -1145.177734375 7605.49365234375</Origin>
             <Direction>0 1 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="6.34500026702881" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="6.34500026702881">
             <Text>
               <Data>C</Data>
               <XY>0 0</XY>
@@ -11352,7 +11352,7 @@
             <Origin>41701.4147583215 -1196.58557128906 7608.33953076904</Origin>
             <Direction>1 0 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="6.34500026702881" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="6.34500026702881">
             <Text>
               <Data>A</Data>
               <XY>0 0</XY>
@@ -11381,7 +11381,7 @@
             <Origin>41826.4446147577 -1242.39956368223 7596.69550003043</Origin>
             <Direction>1 0 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="6.34500026702881" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="6.34500026702881">
             <Text>
               <Data>B</Data>
               <XY>0 0</XY>

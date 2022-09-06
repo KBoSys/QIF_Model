@@ -1,7 +1,5 @@
 ## C# Class Library for Implementation of QIF 3.0 Standard
-## Target frameworks: 
-.NET Standard 2.0
-.NET 6.0
+## Target framework: .NET Standard 2.0
 
 Full implementation of QIF 3.0 Standard with test application.
 Precise reading and writing of QIF files without loss of information.
@@ -27,13 +25,18 @@ using QIF_Model.Helpers;
 using QIF_Model.QIFApplications;
 
 QIFSerializer qifImport = new QIFSerializer();
-QIFDocumentType? document = qifImport.CreateQIFDocument(filename);
+QIFDocumentType document = qifImport.CreateQIFDocument(filename);
 
 # Export QIF Document to qif file
 qifImport.Write(document, filename);
 
 #Validate QIF file against XSD
-uint errors = QIFSerializer.Validate(filename, $"{path}QIFDocument.xsd", 10, out errorMessages);
+uint errors = QIFSerializer.Validate(
+                filename,                    // QIF file to validate
+                $"{path}QIFDocument.xsd",    // XSD
+                10,                          // Max number of errors 
+                out errorMessages            // Output List with Error Messages
+                );
 
 
 # Test Application

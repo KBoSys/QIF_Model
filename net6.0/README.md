@@ -1,6 +1,5 @@
 ## C# Class Library for Implementation of QIF 3.0 Standard
 ## Target frameworks: 
-.NET Standard 2.0
 .NET 6.0
 
 Full implementation of QIF 3.0 Standard with test application.

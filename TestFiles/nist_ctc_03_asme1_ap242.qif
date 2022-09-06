@@ -28947,7 +28947,7 @@
             </AnnotationViewId>
             <Origin>-49.56610107422 397.765423583947 1.80754005909</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -28982,7 +28982,7 @@
             </AnnotationViewId>
             <Origin>-23.01531982422 565.9535522461 1.907539963722</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="3">
+          <Texts n="3" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{PERPENDICULARITY}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29038,7 +29038,7 @@
             </AnnotationViewId>
             <Origin>-174.425994873 380.066265869147 1.80754005909</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29073,7 +29073,7 @@
             </AnnotationViewId>
             <Origin>-149.1008911133 554.5564575195 1.907539963722</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="4">
+          <Texts n="4" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29138,7 +29138,7 @@
             </AnnotationViewId>
             <Origin>75.61825561523 -121.2913589478 78.0075378418</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29173,7 +29173,7 @@
             </AnnotationViewId>
             <Origin>-185.8029632568 -89.54692840576 1.80754005909</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29208,7 +29208,7 @@
             </AnnotationViewId>
             <Origin>-161.1570129395 -251.5439605713 1.081184506416</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29282,7 +29282,7 @@
             </AnnotationViewId>
             <Origin>99.0447769165 -265.0501708984 77.06021118164</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29356,7 +29356,7 @@
             </AnnotationViewId>
             <Origin>-308.3093566895 108.882883071903 78.10753631592</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29391,7 +29391,7 @@
             </AnnotationViewId>
             <Origin>-281.7626953125 148.820526123 76.90702056885</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29465,7 +29465,7 @@
             </AnnotationViewId>
             <Origin>73.27679443359 312.974862670945 78.10753631592</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29500,7 +29500,7 @@
             </AnnotationViewId>
             <Origin>87.48171234131 486.5403442383 77.12728118896</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29574,7 +29574,7 @@
             </AnnotationViewId>
             <Origin>159.4859008789 392.6813354492 78.10753631592</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{POSITION}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29648,7 +29648,7 @@
             </AnnotationViewId>
             <Origin>554.118401678637 690.244383323218 664.758810694943</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{PROFILE_SURFACE}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29722,7 +29722,7 @@
             </AnnotationViewId>
             <Origin>569.055280041529 721.591045261362 679.695898637701</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{FLATNESS}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29762,7 +29762,7 @@
             </AnnotationViewId>
             <Origin>561.586840860083 705.91771429229 672.227354666322</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="3">
+          <Texts n="3" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{ANGULARITY}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29811,7 +29811,7 @@
             </AnnotationViewId>
             <Origin>-233.8076782227 526.5172729492 -129.1239929199</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{PROFILE_SURFACE}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29858,7 +29858,7 @@
             </AnnotationViewId>
             <Origin>-75.57183837891 -102.2576446533 133.8568878174</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="5">
+          <Texts n="5" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{PROFILE_SURFACE}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -29933,7 +29933,7 @@
             <Origin>71.48432159424 96.54675292969 182.1206359863</Origin>
             <Direction>0 1 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="2">
+          <Texts n="2" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{DIAMETER}</Data>
               <XY>0 0</XY>
@@ -29969,7 +29969,7 @@
             <Origin>82.965942382795 12.66572093964 191.764511108415</Origin>
             <Direction>0 1 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="3">
+          <Texts n="3" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>{PERPENDICULARITY}</Data>
               <XY>3.78000019325632 3.78000019325632</XY>
@@ -30025,7 +30025,7 @@
             </AnnotationViewId>
             <Origin>-116.992401123 4.4716796875 78.10753631592</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>(.75IN)</Data>
               <XY>0 0</XY>
@@ -30067,7 +30067,7 @@
             </AnnotationViewId>
             <Origin>-236.85500000095 449.36215515138 119.2853088379</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>.82IN{PLUS_MINUS}.06IN</Data>
               <XY>0 0</XY>
@@ -30110,7 +30110,7 @@
             </AnnotationViewId>
             <Origin>13.8724945617067 615.698022562774 1.907539963722</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>B</Data>
               <XY>0 0</XY>
@@ -30147,7 +30147,7 @@
             </AnnotationViewId>
             <Origin>-233.8076782227 561.370609692049 -92.2361785339733</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>A</Data>
               <XY>0 0</XY>
@@ -30184,7 +30184,7 @@
             </AnnotationViewId>
             <Origin>-145.830925051673 501.603772082874 1.80754005909</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>C</Data>
               <XY>0 0</XY>
@@ -30221,7 +30221,7 @@
             </AnnotationViewId>
             <Origin>-75.57183837891 -39.1345945510705 170.744702203327</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>D</Data>
               <XY>0 0</XY>
@@ -30258,7 +30258,7 @@
             </AnnotationViewId>
             <Origin>539.21039164145 794.515545633129 649.85134399572</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>E</Data>
               <XY>0 0</XY>
@@ -30296,7 +30296,7 @@
             <Origin>109.049566078234 62.8854598352998 217.848134803854</Origin>
             <Direction>0 1 0</Direction>
           </Plane>
-          <Texts fontIndex="1" lineHeight="10.5000005368231" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="10.5000005368231">
             <Text>
               <Data>F</Data>
               <XY>0 0</XY>
@@ -30333,7 +30333,7 @@
             </AnnotationViewId>
             <Origin>-14 0 77.06021118164</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="3.5" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="3.5">
             <Text>
               <Data />
               <XY>0 0</XY>
@@ -30442,7 +30442,7 @@
             </AnnotationViewId>
             <Origin>222.919645277495 0 78.10753631592</Origin>
           </Plane>
-          <Texts fontIndex="1" lineHeight="3.5" n="1">
+          <Texts n="1" fontIndex="1" lineHeight="3.5">
             <Text>
               <Data />
               <XY>0 0</XY>

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "QIF_Model_Console": {
+      "commandName": "Project",
+      "commandLineArgs": "\"../../../../../TestFiles/\" \r\n\"../../../../../TestFiles/Test/\""
+    }
+  }
+}

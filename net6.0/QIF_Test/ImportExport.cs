@@ -1,8 +1,6 @@
 using QIF_Model.Helpers;
 using QIF_Model.QIFApplications;
-using System.Diagnostics;
 using System.Text.RegularExpressions;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace QIF_Test
 {
@@ -111,7 +109,7 @@ namespace QIF_Test
         {
             QIFSerializer qifImport = new QIFSerializer();
 
-            string sourceDirectory = @"..\..\..\..\TestFiles";
+            string sourceDirectory = @"..\..\..\..\..\TestFiles";
             string outputFile = $"{sourceDirectory}\\Test\\Test.qif";
             try
             {
@@ -123,7 +121,7 @@ namespace QIF_Test
 
                     string fileName = currentFile.Substring(sourceDirectory.Length + 1);
 
-                    QIFDocumentType document = qifImport.CreateQIFDocument(currentFile);
+                    QIFDocumentType? document = qifImport.CreateQIFDocument(currentFile);
                     Assert.IsNotNull(document, "Could not create QIFDocument");
 
                     qifImport.Write(document, outputFile);

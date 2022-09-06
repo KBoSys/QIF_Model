@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QIF_Import_Console", "QIF_Import_Console\QIF_Import_Console.csproj", "{939E7476-2347-478F-9226-EDCA385A89EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QIF_Test", "QIF_Test\QIF_Test.csproj", "{B6E89179-780B-4DA4-B67F-24D0C5CB78EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QIF_Test", "QIF_Test\QIF_Test.csproj", "{D9AAB511-D00D-4947-9A14-1CBD575DAAAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{939E7476-2347-478F-9226-EDCA385A89EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939E7476-2347-478F-9226-EDCA385A89EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939E7476-2347-478F-9226-EDCA385A89EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6E89179-780B-4DA4-B67F-24D0C5CB78EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6E89179-780B-4DA4-B67F-24D0C5CB78EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6E89179-780B-4DA4-B67F-24D0C5CB78EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6E89179-780B-4DA4-B67F-24D0C5CB78EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9AAB511-D00D-4947-9A14-1CBD575DAAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AAB511-D00D-4947-9A14-1CBD575DAAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AAB511-D00D-4947-9A14-1CBD575DAAAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AAB511-D00D-4947-9A14-1CBD575DAAAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -36,6 +36,7 @@ namespace QIF_Import_Console
 
                 foreach (string currentFile in files)
                 {
+                    Console.WriteLine("------------------------------------------------------");
                     // Validate the input against the XSD
                     //if (!Validate(input_file))
                     //	return;
@@ -64,6 +65,7 @@ namespace QIF_Import_Console
                     {
                         //break;
                     }
+                    Console.WriteLine("------------------------------------------------------\n");
                 }
             }
             catch (Exception e)
@@ -74,7 +76,30 @@ namespace QIF_Import_Console
 
         static bool Validate(string filename)
         {
-            return QIFSerializer.Validate(filename, "http://qifstandards.org/xsd/qif3", @"..\..\..\xsd\QIFApplications\QIFDocument.xsd");
+            Console.WriteLine($"Validating {filename}");
+
+            List<string> errorMessages = new List<string>();
+            uint errors = QIFSerializer.Validate(
+                filename,                                           // QIF file to validate
+                @"..\..\..\..\xsd\QIFApplications\QIFDocument.xsd",    // Schema
+                30,                                                 // Max Errors
+                out errorMessages                                   // Output Error Message
+                );
+
+            if (errors == 0)
+            {
+                Console.WriteLine("XML validation succeeded");
+            }
+            else
+            {
+                Console.WriteLine("XML validation Failed");
+            }
+
+            foreach (var err in errorMessages)
+            {
+                Console.WriteLine(err);
+            }
+            return errors == 0;
         }
     }
 }
